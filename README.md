@@ -5,7 +5,7 @@ Automation of baseline parameters configuration for RAN nodes deployment and int
 - Input file must be in "data" folder and has to be named "input.xlsx".
 - Managed Objects (MO) GNBCUCPFunction, CUEUtranCellFDDLTE and NRCellDU must contain the necessary cell information of the target nodes.
 
-# Use
+# How to use
 An executable file is provided (ZTE Baseline Tool.exe). Besides, the application can be build using PyInstaller package. All or individual steps can be selected and the output can be found in "data" folder.
 The available steps are:
 - NRFREQ: Parameters to define the frequency band and associate it with the new cells, as well as the allocation of time-frequency resources.
